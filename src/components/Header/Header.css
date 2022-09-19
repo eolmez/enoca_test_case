@@ -1,0 +1,18 @@
+.header {
+  height: 28px;
+  position: relative;
+}
+
+.switch {
+  text-align: center;
+  height: 28px;
+}
+
+.calc-history {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top:10px;
+  right: 36px;
+  cursor: pointer;
+}

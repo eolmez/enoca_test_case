@@ -1,0 +1,33 @@
+.calc-screen {
+  display: flex;
+  padding: 0.5rem 1rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: all 0.5s linear;
+  height: 263px;
+}
+
+.dark .calc-screen {
+  color: white;
+}
+
+.calc-compute {
+  color: rgba(55, 55, 55, 0.5);
+  font-size: 22px;
+}
+
+.dark .calc-compute {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.calc-answer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.answer {
+  font-size: 40px;
+}

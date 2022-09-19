@@ -1,0 +1,91 @@
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 26px 34px 50px 34px;
+  height: 507px;
+  border-radius: 30px;
+  background: linear-gradient(
+    150deg,
+    #9ee8ff 8.14%,
+    #5aceff 30.9%,
+    #79afff 60.94%,
+    #2d5fde 200.11%
+  );
+}
+
+.dark .keyboard {
+  background: linear-gradient(
+    244.38deg,
+    #42869b 8.14%,
+    #2a7da1 27.9%,
+    #224e91 56.94%,
+    #00123f 84.11%
+  );
+}
+
+.keyboard-left {
+  width: calc(100% - 70px);
+  height: 100%;
+}
+
+.keyboard-left-top {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+
+.dark .keyboard-left-top {
+  background: rgba(5, 5, 5, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.keyboard-left-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 260px;
+  height: 340px;
+  margin-top: 20px;
+}
+
+.keyboard-left-bottom-btn {
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dark .keyboard-left-bottom-btn {
+  background: rgba(5, 5, 5, 0.3);
+}
+
+.keyboard-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+
+.dark .keyboard-right {
+  background: rgba(5, 5, 5, 0.3);
+}
+
+.stick {
+  margin: 27px auto 0;
+  width: 175px;
+  height: 5px;
+  background: #6396c5;
+  border-radius: 25px;
+}
+
+.dark .stick {
+  background: #3d76ab;
+}

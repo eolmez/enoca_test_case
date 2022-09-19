@@ -1,0 +1,24 @@
+.calculator {
+  padding-top: 60px;
+  margin: 50px auto;
+  height: 858px;
+  width: 423px;
+  border-radius: 40px;
+  background: linear-gradient(
+    166.34deg,
+    #fefefe 0%,
+    #f9f9f9 12.84%,
+    #f3f3f3 32.53%,
+    #e5e5e5 100%
+  );
+}
+
+.dark.calculator {
+  background: linear-gradient(
+    166.34deg,
+    #373737 0%,
+    #252628 22.9%,
+    #000309 100%
+  );
+  transition: all 0.5s linear;
+}
